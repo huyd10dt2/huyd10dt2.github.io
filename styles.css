@@ -10,13 +10,9 @@ li {
     margin-right:10px;
 }
 
-.content-main{
+.title-main{
     padding-top: 25px;
     text-align:center;
-    
-}
-
-.title-main{
     font-size: 40px;
     color: green;
 }
