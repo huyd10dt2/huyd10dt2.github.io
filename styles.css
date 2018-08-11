@@ -6,7 +6,11 @@ ul {
 li {
     display:block;
     float:left;
-    background:blue;
-    color:white;
+    color:#0b3f96;
     margin-right:10px;
+}
+.content{
+    pandding-top: 50px;
+    text-align:center;
+    
 }
