@@ -1,0 +1,13 @@
+ul {
+    width:100%;
+    background:red;
+    height:20px;
+    text-align:center;
+}
+li {
+    display:block;
+    float:left;
+    background:blue;
+    color:white;
+    margin-right:10px;
+}
