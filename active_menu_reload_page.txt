@@ -25,3 +25,34 @@
      });
   });
   </script>
+  
+/* css phần header bên trong admin*/
+.header_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff
+}
+
+.header_menu li {
+    float: left;
+}
+
+.header_menu li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 19px 10px;
+    text-decoration: none;
+}
+
+.header_menu li a:hover {
+    color: #08588a;
+}
+.header_menu .active a{
+    color: #08588a;
+    background: #e4e5e6;
+}
