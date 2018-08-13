@@ -4,8 +4,7 @@ ul {
     text-align:center;
 }
 li {
-    display:block;
-    float:left;
+    text-align: left;
     color:#0b3f96;
     margin-right:10px;
 }
