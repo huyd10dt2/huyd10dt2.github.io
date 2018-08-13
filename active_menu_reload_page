@@ -1,0 +1,27 @@
+ <div class="header_menu">
+            <ul>
+                <li><a href="${contextPath}/user/page">TRANG TỔNG QUAN</a></li>
+                <li><a href="${contextPath}/user/category-list">QUẢN LÝ CHỦ ĐỀ</a></li>
+                <li><a href="${contextPath}/user/template">TẠO MỚI BÀI VIẾT</a></li>
+                <li><a href="${contextPath}/user/newest">BÀI VIẾT CỦA TÔI</a></li>
+                <li><a href="${contextPath}/user/assign">ĐỒNG CHỦ BIÊN</a></li>
+                <li><a href="${contextPath}/user/doc-subscriber">BÀI VIẾT QUAN TÂM</a></li>
+                <li><a href="${contextPath}/user/doc-approved">PHÊ DUYỆT</a></li>
+            </ul>
+</div>
+
+<script>
+    $(document).ready(function(){
+     var linkCurrent = window.location.href.replace(/.*\/\/[^\/]*/, '');
+     $('.header_menu  ul li').removeClass('active');
+     $('.header_menu  ul li').each(function(){
+        var $this = $(this);
+        var linkCheck = $this.find('a').attr('href');
+        if(linkCheck == linkCurrent){
+            $this.addClass('active');
+        }else if(linkCurrent == '/'){
+            $(".header_menu ul").find('li:first-child').addClass('active');
+        }
+     });
+  });
+  </script>
