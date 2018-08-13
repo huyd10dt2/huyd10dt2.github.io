@@ -3,15 +3,22 @@
  */
 var Common = function() {
 	var baseUrl = "";
+	
+	
 	var _myFuntion = function(){
 		console.log(" vào");			
+	}
+	
+	function _handleValidation(){
+		
+		console.log(" vào validate");	
 	}
 
 	// public functions
 	return {
 		// main function
 		init : function() {
-			//_handleValidation();
+			_handleValidation();
 			_myFuntion();
 		}
 
