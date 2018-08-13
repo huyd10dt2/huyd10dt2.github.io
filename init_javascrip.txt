@@ -1,0 +1,24 @@
+/**
+ * Commont Module
+ */
+var Common = function() {
+	var baseUrl = "";
+	var _myFuntion = function(){
+		console.log(" vào");			
+	}
+
+	// public functions
+	return {
+		// main function
+		init : function() {
+			//_handleValidation();
+			_myFuntion();
+		}
+
+	};
+
+};
+
+jQuery(document).ready(function() {
+	Common().init();
+});
