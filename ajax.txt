@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
 
-<h1>Cách gọi ajax</h1>
-<p>
  $.ajax({
     type: 'POST',
     url: 'data.php',
@@ -22,8 +14,4 @@
         // code here
     }
  }); 
-</p>
-
-</body>
-</html>
 
